@@ -1,0 +1,27 @@
+# Java & Maven
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.log
+
+# IDE
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+.vscode/
+
+# System
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log.gz
+
+# Configuration (避免提交敏感配置)
+src/main/resources/application-dev.yml
+src/main/resources/application-prod.yml
